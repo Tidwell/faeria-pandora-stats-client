@@ -17,7 +17,7 @@
 								< previous
 							</a>
 						</li>
-						<li><input type="text" v-model.number="page" class="form-control" maxlength="4"/></li>
+						<li><input type="text" v-model.number="page" class="form-control" maxlength="4" disabled/></li>
 						<li v-bind:class="{ disabled: page * maxResults === total }">
 							<a v-on:click="next">
 								next >
