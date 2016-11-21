@@ -2,7 +2,7 @@
 	new Vue({
 		el: '#app',
 		data: {
-			apiUrl: 'http://faeriadecks.com:8962/'
+			apiUrl: 'http://pandora-stats-api.faeriadecks.com/'
 		}
 	});
 }());
